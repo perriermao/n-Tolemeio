@@ -1,0 +1,9 @@
+.Nav-Link {
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+}
+.Nav-Link:hover {
+  border-bottom: 2px solid;
+  text-decoration: none;
+}

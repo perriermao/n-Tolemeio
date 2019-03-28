@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("./fonts/poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("./fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("./fonts/poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("./fonts/poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url("./fonts/montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url("./fonts/montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url("./fonts/montserrat/Montserrat-Regular.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: Poppins-Regular, sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 55px 35px 55px 35px;
+}
+form input {
+  padding: 0 26px;
+  height: 40px;
+
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 10px;
+  font-family: Montserrat-Regular;
+}
+
+.submit-button:hover {
+  background-color: #6675df;
+  transition: 0.3s;
+}
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+.modal-content {
+  background-color: #ffffffb8;
+  width: 100%;
+  margin: 0;
+}
+.modal-header {
+  display: block;
+  margin: auto;
+  margin: 0;
+  width: 100%;
+}
